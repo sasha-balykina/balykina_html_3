@@ -17,11 +17,11 @@ body {
     padding: 50px;
 }
 
-.logo{
+.logo {
     margin-bottom: 20px;
 }
 
-.top-menu{
+.top-menu {
     background-color: #4f4f4f;
     height: 40px;
     width: 965px;
@@ -31,7 +31,7 @@ body {
     padding: 10px; 
 }
 
-.header li{
+.header li {
     display:inline;
     font-size: 16px;
     padding: 15px;
@@ -40,15 +40,17 @@ body {
 
 .top-menu li:hover {
     background-color: #3f3f3f;
-    border: .5px solid #ffffff; 
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    padding: 5px; 
 }
 
-.header a{
+.header a {
     color: #ffffff;
     text-decoration: none;
 }
 /*----------- Container ------------*/
-.container{
+.container {
     background-color: #ffffff;
 }
 
@@ -105,7 +107,7 @@ body {
     padding: 4px; 
 }
 
-.footer li{
+.footer li {
     display:inline;
     text-align: center;
     font-size: 16px;
@@ -114,7 +116,7 @@ body {
     width: 140px;
 }
 
-.footer a{
+.footer a {
     color: #000000;
     text-decoration: none;
 }
